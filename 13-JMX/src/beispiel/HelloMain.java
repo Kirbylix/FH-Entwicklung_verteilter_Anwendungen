@@ -15,7 +15,6 @@ public class HelloMain
     {
 	    // Get the Platform MBean Server
 	    MBeanServer mbs = ManagementFactory.getPlatformMBeanServer();
-
 	    // Construct the ObjectName for the MBean we will register
 	    ObjectName name = new ObjectName("com.example.mbeans:type=Hello");
 
