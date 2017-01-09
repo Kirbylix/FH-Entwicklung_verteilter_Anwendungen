@@ -1,0 +1,34 @@
+Welchen Zweck erfüllt das Framework?
+- Datanbank abfragen
+- Mapping von Klassen auf Tabellenstrukturen
+
+Was sind die Verantwortlichkeiten des Frameworks?
+- Mapping
+- query erstellen
+- CRUD unterstüzung
+
+Woher kann das Framework bezogen werden?
+- Internet !!!
+	
+Wie lässt sich das Framework in die Arbeitsumgebung (auf dem Entwicklungsrechner) integrieren (installieren, konfigurieren)?      
+- JAR-Datei einbindung
+- konfiguration über die persistence.xml
+
+Was muss zur Ausführung auf den  Clients, was auf den Servern installiert sein / installiert werden?
+- Server: muss eine Datenbank hosten, EclipseLink.jar einbinden
+- Client: EclipseLinkjar einbinden und DB-Client.jar
+
+In wie weit ist das Framework standardisiert?
+JPA standardisiert die wichtige Aufgabe der objektrelationalen Zuordnung mithilfe von Annotationen oder XML, um Objekte einer oder mehreren Tabellen einer Datenbank zuzuordnen. 
+
+Ist z.B. der Datenaustausch über das Netz standardisiert oder das API zur Anbindung der eigenen Programmteile?
+- Die EntityManager-API kann Objekte persistent in einer Datenbank speichern, aktualisieren, abrufen und entfernen.
+- Die EntityManager-API und die Metadaten für die objektrelationale Zuordnung verarbeiten die meisten Datenbankoperationen, ohne dass Sie JDBC- oder SQL-Code für die Verwaltung der Persistenz schreiben müssen.
+- JPA stellt eine Abfragesprache bereit, die die unabhängige EJB-Abfragesprache (auch als JPQL bekannt) erweitert und mit der Sie Objekte abrufen können, ohne spezielle SQL-Abfragen für die Datenbank schreiben zu müssen, mit der Sie arbeiten.
+
+Inwieweit kann man  sich in der vorgegebenen Zeit von 1 ½ Stunden mit dem Framework vertraut machen?
+Grundlagen verstehen
+
+Was waren hilfreiche Webseiten?
+http://www.vogella.com/tutorials/JavaPersistenceAPI/article.html
+http://www.torsten-horn.de/techdocs/java-jpa.htm
